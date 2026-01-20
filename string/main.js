@@ -65,3 +65,8 @@ IMPORTANT POINTS:
 2. Index starts from 0
 3. Methods return NEW string
 */
+let name = "Sonu";
+let skill = "JavaScript";
+
+let message = `My name is ${name} and I am learning ${skill}`;
+console.log(message);
