@@ -1,7 +1,20 @@
-let a = document.head;
-let b = document.body;
-let c = document.getElementsByTagName("p");
+let table = document.getElementById("myTable");
 
-console.log(a); // head
-console.log(b); // body
-console.log(c); // HTMLCollection of p
+// All rows
+console.log(table.rows);
+
+// First row
+console.log(table.rows[0]);
+
+// All cells of 2nd row
+console.log(table.rows[1].cells);
+
+// First cell of 2nd row
+console.log(table.rows[1].cells[0].innerText);
+
+// Last row
+console.log(table.rows[table.rows.length - 1]);
+
+// Last cell of last row
+let lastRow = table.rows[table.rows.length - 1];
+console.log(lastRow.cells[lastRow.cells.length - 1].innerText);
