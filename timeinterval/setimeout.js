@@ -7,11 +7,12 @@ let sum = () => {
 sum();
 
 
-// settimeinterval
+// settimeinterval 
 
 let msg=()=>{
     setInterval(()=>{
         console.log('hello wrold')
-    },2000)
+    },3000)
 }
 msg();
+
