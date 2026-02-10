@@ -1,3 +1,5 @@
-let arr=[10,20,30];
-let [a,b,c]=arr;
-console.log(a,b,c);
+let arr=[10,20,30,40,50];
+let [a,b,c,...res]=arr;
+console.log(a,b,c,res);
+
+
